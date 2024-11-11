@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family:fantasy;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#clockContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    color: rgb(191, 20, 200);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 75px;
+    width: 100% ;
+    text-align: center;
+    background-color: rgba(186, 197, 255, 0.137);
+    backdrop-filter: blur(5px);
+}
